@@ -1,0 +1,10 @@
+Run these commands to install Go env and sendgrid-go repos:
+
+go get github.com/joho/godotenv
+go get github.com/sendgrid/sendgrid-go
+
+Go to .env file and add your sendgrid key, sender email (authorised from sendgrid), sender name (authorised from sendgrid), reciever email, reciever name.
+
+Once Done run the command to send email:
+
+go run send.go
